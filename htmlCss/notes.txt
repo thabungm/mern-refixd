@@ -1,0 +1,5 @@
+- IDE/Editor
+- extensions of vscode
+- live server: an extension to run the html file, Ritwick Dey
+- html -> head holds meta data
+- to run right click and open with live server
