@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 10px;
+            background: blue;
+        }
+
+        /*
+        targeting all the elements inside
+        .container which has .header as class
+        */
+        .container .header {
+            padding: 20px;
+            background: green;
+            margin: 10px;
+        }
+
+        /* immediate children of container */
+        .container>.header {
+            color: white;
+        }
+
+        /* immediate sibling of .header with classnam .sibling */
+        .header+.sibling {
+            background: red;
+            padding: 10px;
+            color: white;
+        }
+
+        /* any sibling with classname .sibling */
+        .header~.sibling {
+            background: red;
+            padding: 10px;
+            color: white;
+        }
+
+        #veryUniqueId {
+            background: yellow;
+            padding: 20px;
+        }
+
+        input[type='text'] {
+            color: blue;
+            border: 2px solid rgb(45, 32, 7)
+        }
+
+        input[name='email'] {
+            color: #ff8c00;
+            border: 2px solid orange
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            Header outside 1
+        </div>
+
+        <div>
+            <div class="header">
+                Header inside 1
+            </div>
+        </div>
+        <div class="sibling">
+            I am first sibling of header
+        </div>
+
+        <div class="header">
+            Header outside 2
+        </div>
+        <div class="sibling">
+            I am sibling of header
+        </div>
+
+        <div id="veryUniqueId">
+            I am a div with id
+        </div>
+
+    </div>
+    <input type="text" name="username" />
+    <input type="text" name="email" />
+</body>
+
+</html>
