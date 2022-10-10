@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            /* absolute unit */
+            /* font-size: 20px; */
+            /* font-size: 1in; */
+            /* font-size: 1cm; */
+            /* font-size: 23pt; */
+            /* font-size: 5mm; */
+            /* relative unit */
+            font-size: 25px;
+            /* width: 600px; */
+            background-color: blue;
+        }
+
+        html {
+            font-size: 15px;
+        }
+
+        .child {
+            /* width: 50%; */
+            width: 50vw;
+            height: 50vh;
+            background: green;
+            /* margin: 10px; */
+            border: 1px solid;
+            /* font-size: 1em; */
+            font-size: 2rem;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus nobis voluptas aliquam quibusdam perferendis
+        fugiat, rerum aspernatur exercitationem vero temporibus, hic architecto asperiores. Rem, beatae ratione facere
+        voluptas ab dignissimos. -->
+        <div class="child">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quaerat inventore maxime tempora quas
+            excepturi nobis voluptatibus sequi animi soluta, nam saepe deserunt doloremque unde neque atque ad facilis
+            distinctio.
+        </div>
+
+        <div class="box-model">
+            total width = width + left padding + right padding + left border + right border + left margin + right
+            margin
+            <br />total height = height + top padding + bottom padding + top border + bottom border + top margin +
+            bottom marginThe total size of the box includes the size of the paddings, border and margins.
+
+        </div>
+    </div>
+</body>
+
+</html>
