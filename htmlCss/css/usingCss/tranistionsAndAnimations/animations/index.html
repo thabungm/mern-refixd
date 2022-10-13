@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*  @keyframes animatebox {
+            to {
+                background-color: yellow;
+            }
+
+            from {
+                background-color: red;
+            }
+        } */
+        @keyframes animatebox {
+            0% {
+                top: 10px;
+                left: 10px;
+                background-color: yellow;
+            }
+
+            25% {
+                top: 10px;
+                left: 500px;
+                background-color: blue;
+                border-radius: 50%;
+
+            }
+
+            50% {
+                top: 400px;
+                left: 500px;
+                background-color: black;
+            }
+
+            75% {
+                top: 400px;
+                left: 10px;
+            }
+
+            100% {
+                top: 10px;
+                left: 10px;
+                background-color: red;
+            }
+        }
+
+        .container {
+            animation-name: animatebox;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+            animation-delay: 2s;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Animation</h3>
+    <div class="container"></div>
+
+</body>
+
+</html>

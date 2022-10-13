@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            background: blue;
+            display: flex;
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+
+
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /*   justify-content: center;
+            gap: 2px; */
+
+            height: 50vh;
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            /* align-items: center; */
+            /* align-items: stretch; */
+            align-items: baseline;
+            gap: 10px;
+        }
+
+        .flex-item {
+            background: red;
+            /* width: 100px; */
+            height: 200px;
+            /* margin: 2px; */
+        }
+
+        .flex1 {
+            font-size: 40px;
+        }
+
+        .flex2 {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item flex1">Lorem ipsum dolor</div>
+        <div class="flex-item flex2">Lorem ipsum</div>
+        <div class="flex-item flex3">Lorem ipsum Lorem ipsum</div>
+    </div>
+</body>
+
+</html>

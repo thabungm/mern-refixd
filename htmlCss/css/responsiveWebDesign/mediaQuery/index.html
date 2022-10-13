@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background: blue;
+            padding: 10px;
+            color: white;
+        }
+
+        .row {
+            background-color: green;
+            margin: 2px;
+        }
+
+        @media screen and (min-width: 769px) {
+            .row {
+                width: 200px;
+                float: left
+            }
+
+            .container {
+                background: red;
+                height: 200px;
+            }
+        }
+
+        /* H/W: explore to apply style only for print */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="row">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="row">row 1</div>
+    </div>
+</body>
+
+</html>
