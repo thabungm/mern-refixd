@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AwesomeFont';
+    src: url('./FuzzyBubbles-Regular.ttf');
+}
+
+html {
+    --myColor: 'yellow'
+}
+.demoFont {
+    font-family: 'AwesomeFont';
+    background: var(--myColor)
+}

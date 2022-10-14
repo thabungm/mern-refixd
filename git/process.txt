@@ -1,0 +1,12 @@
+- A creates a proejct (group of files)
+- A uploads the code to github.com (main/master)
+- B clones the code to her machine & creates a new branch(branch-b)
+- B makes some changes +++ and ---- some lines 
+- B puts comment and commit
+- B pushes/uploads the changes to github
+- B request A to take in the changes (pull request/merge request)
+branch-b -> main
+- A will revert to B with comments 
+- A  may accept/reject the request
+- B can now delete the branch barnch-b
+
